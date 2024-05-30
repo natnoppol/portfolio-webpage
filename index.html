@@ -1,81 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="/index.css" />
-  <script
+    <script
       src="https://kit.fontawesome.com/26b8dcee52.js"
       crossorigin="anonymous"
     ></script>
 
-  <script src="./js/libs.mjs" defer></script>
-</head>
-<body>
+    <script src="./js/libs.mjs" defer></script>
+  </head>
+  <body>
     <header class="nav-bar">
-        <div class="logo">
-          <img src="./image/portfolio-logo.png" alt="Logo img">
+      <div class="logo">
+        <img src="./image/portfolio-logo.png" alt="Logo img" />
+      </div>
+      <div class="hamburger" onclick="navResponsive()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+            <a href="./portfolio/index.html">Portfolio</a>
+            <a href="#">Services</a>
+            <a href="./about/index.html">Experience</a>
+            <a href="#">Education</a>
+          </li>
+        </ul>
+        <button class="contact-btn">
+          <a href="./contact/index.html">Contact me</a>
+        </button>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h3>Hi</h3>
+
+        <h1>
+          <span>I'm Natnoppol</span><br />
+          a Frontend Developer
+        </h1>
+
+        <p id="typingEffect"></p>
+
+        <div class="home-btn">
+          <div class="btn-1">
+            <a href="./about/index.html">Experience</a>
+          </div>
         </div>
-        <div class="hamburger" onclick="navResponsive()">
-          <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="home-img-box">
+        <img src="./image/header-img.jpg" alt="" />
+      </div>
+    </section>
+    <section class="card-con">
+      <a href="https://natnoppol.github.io/" class="card" style="color: #000;">
+        <img
+          src="./image/demo-1.png"
+          alt="Cross-Course Project (Design, HTML & CSS)"
+          style="aspect-ratio: 1 / 1"
+        />
+        <div class="container">
+          <h2><b>Cross-Course Project</b></h2>
+          <p>(Design, HTML & CSS)</p>
         </div>
-        <nav class="navigation">
-          <ul>
+      </a>
+      <a href="https://natnoppol.github.io/SemesterProject1.github.io/" class="card" style="color: #000;">
+        <img
+          src="./image/demo-2.png"
+          alt="Cross-Course Project (Design, HTML & CSS)"
+          style="aspect-ratio: 1 / 1"
+        />
+        <div class="container">
+          <h2><b>Cross-Course Project</b></h2>
+          <p>(Design, HTML & CSS)</p>
+        </div>
+      </a>
+      <a href="https://norofffeu.github.io/FED1-PE1-natnoppol/" class="card" style="color: #000;">
+        <img
+          src="./image/demo-3.png"
+          alt="Cross-Course Project (Design, HTML & CSS)"
+          style="aspect-ratio: 1 / 1;"
+        />
+        <div class="container">
+          <h2><b>Cross-Course Project</b></h2>
+          <p>(Design, HTML & CSS)</p>
+        </div>
+      </a>
+    </section>
+
+    <div class="page-content">
+      <footer>
+        <div class="footer-content">
+          <ul class="socials">
             <li>
-              <a href="./index.html">Home</a>
-              <a href="./portfolio/index.html">Portfolio</a>
-              <a href="#">Services</a>
-              <a href="./about/index.html">Experience</a>
-              <a href="#">Education</a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin-square"></i></a>
             </li>
           </ul>
-          <button class="contact-btn"><a href="./contact/index.html">Contact me</a></button>
-        </nav>
-      </header>
-
-      <section class="home">
-        <div class="home-content">
-            <h3>Hi</h3>
-            
-            <h1><span>I'm Natnoppol</span><br>
-                a Frontend Developer
-            </h1>
-
-            <p id="typingEffect"></p>
-
-            <div class="home-btn">
-                <div class="btn-1"> 
-                    <a href="./about/index.html">Experience</a>
-                </div>
-            </div>
+          <ul class="policy">
+            <li><a href="./policy/privacy.html">Privacy & Policy</a></li>
+            <li><a href="./policy/terms.html">Terms & Conditions</a></li>
+          </ul>
+          <div class="footer-bottom">
+            LOGO copyright ©2024 LOGO - All rights reserved || Designed By:
+            Natnoppol
+          </div>
         </div>
-        <div class="home-img-box">
-            <img src="./image/header-img.jpg" alt="">
-        </div>
-      </section>
-      
-      <div class="page-content">
-          <footer>
-            <div class="footer-content">
-              <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-              </ul>
-              <ul class="policy">
-                <li><a href="./policy/privacy.html">Privacy & Policy</a></li>
-                <li><a href="./policy/terms.html">Terms & Conditions</a></li>
-              </ul>
-              <div class="footer-bottom">
-                LOGO copyright ©2024 LOGO - All rights reserved || Designed By:
-                Natnoppol
-              </div>
-            </div>
-          </footer>
-      </div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
