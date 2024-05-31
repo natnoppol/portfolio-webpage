@@ -2,7 +2,6 @@ let i = 0;
 const text = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, magnam?!';
 let speed = 50;
 const textcon = document.getElementById('typingEffect');
-textcon.textContent = text;
 textcon.classList.add('p-active')
 
 function navResponsive(){
