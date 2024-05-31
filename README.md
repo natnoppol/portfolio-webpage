@@ -1,4 +1,4 @@
-#🟢![banner img](https://github.com/natnoppol/portfolio-webpage/blob/main/image/portfolio-logo.png)
+![banner img](https://github.com/natnoppol/portfolio-webpage/blob/main/image/portfolio-logo.png)
 
 # Welcome to portfolio-webpage 2024 (Frontend only)
 
@@ -10,15 +10,7 @@
 - [Project Exam 1](https://norofffeu.github.io/FED1-PE1-natnoppol/)
 
 
-🟢 This website has 5 pages.
-
-- Home Page containing items list `/index.html`
-- Post Page showing all details of a specific item, create and edit `/post/index.html`  `/post/edit.html`
-- Policy Page showing policy privacy, terms and condition `/policy/privacy.html` `/policy/term.html` 
-- login Page showing a login and register `/account/login.html` `/ccount/resginter.html`
-- about page showing client  website `/about/index.html`
-
-## Steps for installation
+## 🟢 Steps for installation
 
 ```
 bash
