@@ -1,4 +1,4 @@
-#🟢[banner img](https://github.com/natnoppol/portfolio-webpage/blob/main/image/portfolio-logo.png)
+#🟢![banner img](https://github.com/natnoppol/portfolio-webpage/blob/main/image/portfolio-logo.png)
 
 # Welcome to portfolio-webpage 2024 (Frontend only)
 
