@@ -5,10 +5,10 @@
 ## It is a program written by Javascript, HTML and CSS to receive commands and respond. Made by Natnoppol Pansantia, this project was created for learning Javascript, HTML and CSS.  💖 This website is for those who are new to using html css javascript to create a website.
 
 ## Table of Contents
-- [Figma](https://www.figma.com/design/EarMz0a8yDFw4Xfpzxi3GG/Game-App?node-id=1938-9423&t=SAukBV7t4eAhThz7-0)
-- [planing board](https://github.com/orgs/NoroffFEU/projects/46/views/1)
-- [Demo](https://norofffeu.github.io/FED1-PE1-natnoppol/)
-- ![banner img](https://github.com/natnoppol/portfolio-webpage/blob/main/image/portfolio-logo.png)
+- [Cross-Course Project](https://natnoppol.github.io/)
+- [Semester Project 1](https://natnoppol.github.io/SemesterProject1.github.io/)
+- [Project Exam 1](https://norofffeu.github.io/FED1-PE1-natnoppol/)
+
 
 🟢 This website has 5 pages.
 
