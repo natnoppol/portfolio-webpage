@@ -2,7 +2,7 @@
 
 # Welcome to portfolio-webpage 2024 (Frontend only)
 
-## It is a program written by Javascript, HTML and CSS to receive commands and respond. Made by Natnoppol Pansantia, this project was created for learning Javascript, HTML and CSS.  💖 This website is for those who are new to using html css javascript to create a website.
+## This was a website built to showcase my technical skills, web design skills.
 
 ## Table of Contents
 - [Cross-Course Project](https://natnoppol.github.io/)
@@ -14,7 +14,7 @@
 
 ```
 bash
-git clone https://github.com/NoroffFEU/FED1-PE1-natnoppol.git
+gh repo clone natnoppol/portfolio-webpage
 
 ```
 
