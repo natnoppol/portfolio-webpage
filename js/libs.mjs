@@ -1,5 +1,5 @@
 let i = 0;
-const text = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, magnam?!';
+const text = 'I believe in sharing experiences. Every day, we learn something new, and our knowledge is valuable enough to discuss and share with others. Everyone is a teacher to everyone else. That the little things lead to the big things.';
 let speed = 50;
 const textcon = document.getElementById('typingEffect');
 textcon.classList.add('p-active')
