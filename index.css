@@ -50,6 +50,9 @@ img {
 span {
   color: #415A77;
 }
+.about-content span{
+  color: orangered;
+}
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -270,7 +273,7 @@ header {
   margin: 20px 0 40px;
 }
 .tab-links{
-  margin-right: 1rem;
+  margin-right: 3rem;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
