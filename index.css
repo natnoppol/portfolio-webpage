@@ -278,6 +278,7 @@ header {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  position: relative;
 }
 .tab-links::after{
   content: '';
@@ -291,6 +292,20 @@ header {
 }
 .tab-links.active-link::after{
   width: 50%;
+}
+.tab-content ul li{
+  margin: 10px 0;
+}
+.tab-content ul span{
+  color: yellow;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.tab-content{
+  display: none;
+}
+.tab-content.active-tab {
+  display: block;
 }
 /* contact */
 .contact-form{
