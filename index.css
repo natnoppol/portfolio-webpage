@@ -251,6 +251,7 @@ header {
 }
 #about{
   padding: 80px 0;
+  color: #fff;
 }
 .row{
   display: flex;
@@ -277,6 +278,19 @@ header {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+}
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #0D1B2A;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transform: 0.5s;
+}
+.tab-links.active-link::after{
+  width: 50%;
 }
 /* contact */
 .contact-form{
