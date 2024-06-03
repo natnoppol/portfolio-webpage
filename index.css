@@ -265,6 +265,16 @@ header {
 .about-col-2{
   flex-basis: 60%;
 }
+.tab-title{
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links{
+  margin-right: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
 /* contact */
 .contact-form{
   margin-top: 10rem;
