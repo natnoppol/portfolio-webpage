@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="../js/about.mjs" defer></script>
     <script src="../js/libs.mjs" defer></script>
   </head>
   <body>
@@ -56,22 +57,22 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure ipsa iusto velit veniam molestias repellat sint eligendi quae incidunt. Quae temporibus dolorem molestiae officiis, fuga sapiente voluptate sint repudiandae.</p>
             <div class="tab-title">
               <p class="tab-links active-link" onclick="openTab('skills')">Skill</p>
-              <p class="tab-links" onclick="openTab('Experience')">Experience</p>
-              <p class="tab-links" onclick="openTab('Education')">Education</p>
+              <p class="tab-links" onclick="openTab('experience')">Experience</p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
             </div>
-            <div class="tab-content active-tab">
+            <div class="tab-content active-tab" id="skill">
               <ul>
                 <li><span>UI/UX</span><br>Designing Web</li>
                 <li><span>Web Development</span><br>Web Development</li>
               </ul>
             </div>
-            <div class="tab-content">
+            <div class="tab-content" id="experience">
               <ul>
                 <li><span>2023-2024</span><br>UI/UX Designing Web</li>
                 <li><span>2023-2024</span><br>Web Development</li>
               </ul>
             </div>
-            <div class="tab-content">
+            <div class="tab-content" id="education">
               <ul>
                 <li><span>2023-2024</span><br>Noroff School of Technology and Digital Media</li>
               </ul>

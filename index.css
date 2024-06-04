@@ -513,6 +513,9 @@ header {
     width: 10rem;
     margin-top: 2rem;
   }
+  .row{
+    flex-direction: column;
+  }
   /* contact */
   .contact-form{
     margin-top: 5rem;
