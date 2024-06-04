@@ -4,10 +4,14 @@
 This was a website built to showcase my technical skills, web design skills.
 
 ## Table of Contents
-- [Cross-Course Project](https://natnoppol.github.io/)
+- [Cross-Course Project](https://github.com/natnoppol/natnoppol.github.io)
 - [Semester Project 1](https://natnoppol.github.io/SemesterProject1.github.io/)
 - [Project Exam 1](https://norofffeu.github.io/FED1-PE1-natnoppol/)
 
+## Repositories
+- [Cross-Course Project](https://github.com/natnoppol/natnoppol.github.io)
+- [Semester Project 1](https://github.com/natnoppol/SemesterProject1.github.io)
+- [Project Exam 1](https://github.com/NoroffFEU/FED1-PE1-natnoppol)
 ## Built With
 - Javascript
 - HTML
